@@ -12,7 +12,7 @@ public class Digits
 		for(int i = 0; i<str.length(); i++){
 			arl.add(str.substring(i,i+1));
 		}
-		ArrayList<Integer> arl2 = ArrayList<Integer>();
+		ArrayList<Integer> arl2 = new ArrayList<Integer>();
 		for(int i = 0; i<arl.size(); i++){
 			arl2.add(Integer.parseInt(arl.get(i)));
 		}
