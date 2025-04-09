@@ -7,7 +7,7 @@ public class Digits
 
 	public Digits(int num)
 	{ /* to be implemented in part (a) */ 
-		str = num + "";
+		String str = num + "";
 		ArrayList<String> arl = new ArrayList<String>();
 		for(int i = 0; i<str.length(); i++){
 			arl.add(str.substring(i,i+1));
